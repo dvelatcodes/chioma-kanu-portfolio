@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../styles/contact.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav__ul">
+          <li><a href="../index.html" class="head-link home">Home</a></li>
+          <li>
+            <a href="./contact.html" class="head-link contact">Contact</a>
+          </li>
+          <li>
+            <a href="./registration.html" class="head-link registration"
+              >Registration</a
+            >
+          </li>
+          <li><a href="./login.html" class="head-link login">Login</a></li>
+        </ul>
+      </nav>
+      <h3 class="portfolio">Portfo<span>lio</span></h3>
+    </header>
+    <main>
+      <form action="#" method="post">
+        <div id="name">
+          <label for="name" class="name"> Name </label>
+          <input type="text" name="name" required pattern="[a-z,A-Z]*" />
+        </div>
+        <div id="email">
+          <label for="email" class="email"> Email </label>
+          <input type="email" name="email" />
+        </div>
+        <div id="message">
+          <label for="message" class="message"> Message </label>
+          <textarea
+            rows="8"
+            cols="65"
+            maxlength="400"
+            required
+            pattern="[a-z,A-Z]*"
+          ></textarea>
+        </div>
+        <div class="submit">
+          <button><a href="#">Submit</a></button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <h5>Chioma Kanu</h5>
+      <p>For more enquiries, please click on the links below</p>
+      <div class="links">
+        <a href="#" class="facebook">
+          <img src="../assets/facebook-logo-png-2320.png" alt="facebook icon" />
+        </a>
+        <a href="#" class="twitter">
+          <img src="../assets/logo-twitter-png-5859.png" alt="twitter icon" />
+        </a>
+        <a href="" class="feed">
+          <img src="../assets/Feed-icon.png" alt="feed icon" />
+        </a>
+      </div>
+      <small>All Rights Reserved</small>
+    </footer>
+  </body>
+</html>
